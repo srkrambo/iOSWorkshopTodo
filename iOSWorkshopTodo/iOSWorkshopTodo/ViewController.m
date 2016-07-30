@@ -63,7 +63,6 @@
     
     [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
          textField.placeholder = NSLocalizedString(@"Desc", @"Desc");
-         textField.secureTextEntry = YES;
      }];
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"Cancel") style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
